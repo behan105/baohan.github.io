@@ -1,0 +1,307 @@
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> My Personal Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+</head>
+
+<body>
+
+    <!-- TẤT CẢ -->
+    <div class="container">
+
+        <!-- MENU -->
+        <div id="navbar" class="navbar">
+            <div class="navbar-left">
+                <a href="#default" id="logo"> Love Mysefl First </a> 
+            </div>
+            <div class="navbar-right">
+                <a class="active" href="javascript:void(0);" id="home-menu"> Home </a>
+                <a href="javascript:void(0);t" id="about-menu"> About </a>
+                <a href="javascript:void(0);" id="resume-menu"> Resume </a>
+                <a href="javascript:void(0);" id="skill-menu"> Skill </a>
+                <a href="javascript:void(0);" id="contact-menu"> Contact </a>
+            </div>
+        </div>
+
+        <!-- ẢNH BÌA -->
+        <div id="home" class="cover-img">
+            <div class="covermix">
+                <img src="img/cover.jpg" alt="ảnh chưa được hiển thị">
+                <h1> Hi, I'm Jessi! </h1>
+                <p> I am a student living in Saigon. </p>
+            </div>
+            <div class="scroll-down" onclick="scrollDown()">
+                <i class="fas fa-chevron-down"></i>    
+            </div>
+        </div>
+
+        <!-- ABOUT -->
+        <div id="about" class="about">
+
+            <div class="about-top">
+                <h2> About </h2>
+                <p> A lover of creativity and innovation in the field of technology </p>
+            </div>
+
+            <div class="about-center">
+                <div class="about-center-left">
+                    <img id="imgme" src="img/me.jpg" alt=""> 
+                    <div id="myModal" class="modal">
+                        <span class="close">&times;</span>
+                        <img class="modal-content" id="img01">
+                        <div id="caption"></div>
+                      </div>
+                </div>
+                <div class="about-center-right">
+                    <div class="about-center-right-1">
+                        <h1> Web Designer & Developer. </h1>
+                        <p> "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment." – Ralph Waldo Emerson </p>    
+                    </div>
+                    <div class="about-center-right-2">
+                        <div class="about-center-right-2-left">
+                            <ul>
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Name:</strong>
+                                    <span>Nguyen Tran Bao Han</span>
+                                </li>
+
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Birthday:</strong>
+                                    <span>10 May 2004</span>
+                                </li>
+
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Website:</strong>
+                                    <span>www...</span>
+                                </li>
+
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Phone:</strong>
+                                    <span>0123456789</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="about-center-right-2-right">
+                            <ul>
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>City:</strong>
+                                    <span>Ho Chi Minh</span>
+                                </li>
+
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Age:</strong>
+                                    <span>20</span>
+                                </li>
+
+                                <li> 
+                                    <i class="fa-solid fa-circle-chevron-right"></i>
+                                    <strong>Email:</strong>
+                                    <span>nguyentranbaohan1005@gmail.com</span>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-bot">
+                <p> ??? </p>
+            </div>
+            
+        </div>
+
+        <!-- RESUME -->
+        <div id="resume" class="resume">
+            <div class="resume-top">
+                <section class="resume-1">
+                    <div class="intro">
+                        <h2> Resume </h2>
+                        <p> Success is not just about achieving a goal, but also about the journey of perseverance and learning on the way there. </p>
+                    </div>
+                </section>
+
+            <div class="resume-bot">
+                <section class="resume-2">
+                    <div class="section">
+                        <h2> Sumary </h2>
+                        <div class="content">
+                            <h3> Nguyen Tran Bao Han </h3>
+                            <p> As a Software Engineer I have accumulated in-depth knowledge and practical experience in many diverse projects. With good teamwork ability, creative spirit, and commitment to continuous learning, I always aim to create valuable technology products that bring long-term benefits to businesses and the community. </p>
+                            <ul>
+                                <li> Address: 174 Quoc Lo 50, P06 Q08, HCM City </li>
+                                <li> Phone number: 0123456789 </li>
+                                <li> Email: nguyentranbaohan1005 </li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h2> Education </h2>
+                        <div class="content">
+                            <h3> INFORMATION TECHNOLOGY - SOFTWARE ENGINEERING MAJOR </h3>
+                            <p> 2022 - 2026 </p>
+                            <p> International Training Institute - Nguyen Tat Thanh University </p>
+                            <p> Participated in real projects as a lead programmer, contributed to the development and implementation of software applications and achieved academic excellence scholarships for 2 consecutive years. </p>
+
+                            <h3> TA QUANG BUU HIGH SCHOOL </h3>
+                            <p> 2019 - 2022 </p>
+                            <p> International Training Institute - Nguyen Tat Thanh University </p>
+                            <p> Participated in real projects as a lead programmer, contributed to the development and implementation of software applications and achieved academic excellence scholarships for 2 consecutive years. </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="resume-3">
+                    <div class="section">
+                        <h2> Professional Experience </h2>
+                        <div class="content">
+                            <h3> TINI WORLD </h3>
+                            <p> 06/2023 - 08-2024 </p>
+                            <p> Part time employee, District 7, HCMC </p>
+                            <ul>
+                                <li> Care and serve customers, especially children. </li>
+                                <li> Engage in service excellence and food safety. </li>
+                                <li> Provide absolute customer satisfaction by listening and resolving problems appropriately. </li>
+                            </ul>
+
+                            <h3> TOCO TOCO </h3>
+                            <p> 02/2023 - 06-2023 </p>
+                            <p> Part time employee, District 8, HCMC </p>
+                            <ul>
+                                <li> Provide drinks to customers. </li>
+                                <li> Serve customers quickly and effectively. </li>
+                                <li> Participate in food hygiene and safety by keeping the drinking area and kitchen clean. </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+
+        <!-- SKILL -->
+        <div id="skill" class="skill">
+            <h2> Skill </h2>
+            <p> Practicing skills is like growing a tree. You have to be patient, caring and constantly improve </p>
+
+            <div class="skills-container">
+                <div class="skills-left">
+                    <div class="skills">
+                        <h4>HTML <span>80%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 80%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h4>CSS <span>60%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h4>JavaScript <span>30%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 30%;"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="skills-right">
+                    <div class="skills">
+                        <h4>PHP <span>50%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 50%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h4>WordPress/CMS <span>60%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 60%;"></div>
+                        </div>
+                    </div>
+
+                    <div class="skills">
+                        <h4>Photoshop <span>100%</span></h4>
+                        <div class="progress-bar">
+                            <div class="progress" style="width: 100%;"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- CONTACT -->
+        <div id="contact" class="contact">
+            <div class="contact-top">
+                <h2> Contact </h2>
+            </div>
+
+            <div class="contact-bot">
+                <div class="contact-bot-left">
+                    <div class="info">
+                        <div class="address">
+                            <i class="fa-solid fa-location-dot"></i>
+                            <h4>Address</h4>
+                            <p>174 Quoc Lo 50, P06 Q08, HCM City</p>
+                        </div>
+
+                        <div class="phone">
+                            <i class="fa-solid fa-phone-volume"></i>
+                            <h4>Call Us</h4>
+                            <p>+1 5589 55555 55</p>
+                        </div>
+
+                        <div class="email">
+                            <i class="fa-solid fa-envelope"></i>
+                            <h4>Email Us:</h4>
+                            <p>info@example.com</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- FOOTER -->
+        <footer id="footer">
+            <div class="footer">
+                <h3>  Love Mysefl First </h3>
+                <p> We cannot change the direction of the wind, but we can adjust the sails to go in the right direction. Challenges are inevitable, but how we face them and persevere in pursuing our dreams is the deciding factor for success and happiness. </p>
+                <div class="link">
+                    <a href="#" class="instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="facebook"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="#" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                    <a href="#" class="youtube"><i class="fa-brands fa-youtube"></i></a>
+                    <a href="#" class="tiktok"><i class="fa-brands fa-tiktok"></i></a>
+                </div>
+                <div class="copyright">
+                    &copy; Copyright <strong><span>Love Mysefl First</span></strong>. All Rights Reserved
+                </div>
+                <div class="credits">
+                    Designed by NTBH.
+                </div>
+            </div>
+            <a href="#" class="back-to-top"><i class="fa-solid fa-arrow-up"></i></a>
+        </footer>
+
+    </div>
+
+
+    
+</body>
+<script src="main.js"></script>
+</html>
